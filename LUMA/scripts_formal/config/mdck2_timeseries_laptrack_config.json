@@ -1,0 +1,28 @@
+{
+    "anndata_path": "mdck2_timeseries_results.h5ad",
+    "time_column": "timepoint_index",
+    "fov_column": "fov_id",
+    "x_column": "centroid_x",
+    "y_column": "centroid_y",
+    "distance_metric": "sqeuclidean",
+    "max_linking_distance_px": 40.0,
+    "gap_closing_distance_px": 60.0,
+    "gap_closing_max_frame_count": 2,
+    "allow_splitting": false,
+    "splitting_distance_px": 40.0,
+    "allow_merging": false,
+    "merging_distance_px": 40.0,
+    "visual_feature_columns": [],
+    "visual_feature_normalization": "zscore",
+    "visual_feature_clip_percentiles": [1.0, 99.0],
+    "visual_feature_weight": 1.0,
+    "laptrack_costs": {
+        "track_start_cost": null,
+        "track_end_cost": null,
+        "segment_start_cost": null,
+        "segment_end_cost": null,
+        "no_splitting_cost": null,
+        "no_merging_cost": null,
+        "alternative_cost_factor": null
+    }
+}
